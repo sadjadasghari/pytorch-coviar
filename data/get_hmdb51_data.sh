@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-DATA_DIR="./hmdb51/"
+DATA_DIR="/data/Sadjad/Datasets/hmdb51/"
 
 if [[ ! -d "${DATA_DIR}" ]]; then
   echo "${DATA_DIR} doesn't exist. Creating it.";
